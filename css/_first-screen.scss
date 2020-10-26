@@ -1,0 +1,38 @@
+.first-screen {
+  width: 100%;
+  height: 80vh;
+  background-color: #ade1c5;
+  .first-screen__header {
+    background-color: #fff;
+    .header__content {
+      font-family: "Roboto", sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 500;
+      height: 200px;
+      .content__main {
+        height: 120px;
+        display: flex;
+        align-items: center;
+      }
+      a {
+        text-decoration: none;
+        color: #4e555b;
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+      a:hover{
+        transition: 0.3s;
+        color: #1d1e24;
+      }
+    }
+
+  }
+  .first-screen__content {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+}

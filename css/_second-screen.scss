@@ -1,0 +1,58 @@
+.second-screen {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  .second-screen__header {
+    height: 100px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    .header__content {
+      margin-top: 50px;
+
+      display: flex;
+      justify-content: space-between;
+      a {
+        text-decoration: none;
+        color: #4e555b;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        }
+        a:hover{
+          transition: 0.3s;
+          color: #1d1e24;
+        }
+
+
+      .main__icons {
+        display: flex;
+        align-items: center;
+        .icon {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  .second-screen__content {
+    height: 100vh;
+    .col-md-4 {
+      height: 400px;
+      margin-bottom: 4%;
+      .container {
+        height: 100%;
+        background-color: #ade1c5;
+        display: flex;
+        .container__panel{
+          width: 30%;
+          background-color: #4e555b;
+          height: 100%;
+        }
+        .container__content {
+          width: 70%;
+          height: 100%;
+          background-color: #0c5460;
+        }
+      }
+    }
+  }
+}
